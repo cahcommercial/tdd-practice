@@ -50,4 +50,5 @@ public class GameOfLifeTest {
                 "000\n" +
                 "000");
     }
+
 }

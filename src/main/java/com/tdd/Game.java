@@ -9,6 +9,7 @@ public class Game {
 
     public Board step() {
 
+
         return initialState;
     }
 }
