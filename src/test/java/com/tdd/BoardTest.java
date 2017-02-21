@@ -17,6 +17,7 @@ public class BoardTest {
     @InjectMocks
     Board board;
 
+
     @Test
     public void toStringReturnsInternalState() throws Exception {
         Board board = new Board ("00\n00");

@@ -4,6 +4,7 @@ package com.tdd;
  * Created by jimmy.balmert on 2/7/17.
  */
 public class Board {
+    private BoardStateParser boardStateParser;
     private String state;
     private CellState[][] board;
 
@@ -18,6 +19,7 @@ public class Board {
             }
         }
         board[0][0] = state.charAt(0) == '0' ? CellState.DEAD : CellState.ALIVE;
+//        boardStateParser.parse(state);
     }
 
 
